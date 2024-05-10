@@ -1,5 +1,6 @@
 defmodule Scrivener.HTML do
   import Phoenix.HTML
+  import Phoenix.HTML.Form
   use PhoenixHTMLHelpers
 
   @defaults [view_style: :bootstrap, action: :index, page_param: :page, hide_single: false]
